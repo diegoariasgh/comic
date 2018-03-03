@@ -1,0 +1,142 @@
+#body {
+    background-color: black;
+    min-height: 100%;
+    overflow: hidden;
+
+}
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font: Old Standard TT;
+    color: white;
+    font-size: 40px;
+}
+#interaction {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+#comic {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+#clockArea {
+	display: inline-block;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 50%;
+	height: 50%;
+}
+
+#dot {
+    width: 8px;
+    position: absolute;
+    left: 669px;
+    top: 123px;
+}
+
+#clockAndButtons {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 285px;
+    bottom: 50px;
+    margin-top: 50px;
+
+} 
+#clock{
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+
+} 
+
+#buttons {
+	position: fixed;
+	margin: auto;
+    margin-left: 78px;
+    margin-right: 2px
+}
+
+#mapArea {
+    display: inline-block;
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+#map {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+}
+
+#stationImage{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+} 
+
+.frames {
+    display: inline-block;
+    position: relative;
+    right: 78%;
+    left: 10%;
+    height: 500.66px;
+    width: 700px;
+    border: 5px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+
+#bottom {
+    background-color: grey;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 30px;
+}
+
+#linkToCode {
+   display: inline-block;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+
+#thankYou {
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+}
