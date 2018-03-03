@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Rush Hour</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body id="body">
+
+	<h1 id="title"> RUSH HOUR </h1>
+
+<div id="interaction">
+	<div id="clockArea">
+		<div id="clockAndButtons" width="300" height="300" margin-right="300px"> 
+			<div> 
+				<canvas id="clock" style="background-image: url(images/clock.png);background-repeat: no-repeat;" width="298" height="300">   </canvas> 
+			</div>
+			<div id="buttons">
+				<button onclick="addCounter()">FORWARD</button>
+				<button onclick="subCounter()">BACK</button>
+			</div>
+		</div>
+	</div>
+	<div id="mapArea">
+		<img id="map" src="images/line8.png" width="400px" onclick="checkLocation()";/>	
+	
+	</div>
+</div>
+<div id="comic">
+	<div class="frames">
+		<p id="stationTitle"> INSTRUCTIONS </p>
+	 	<img id="frame" src="images/station.jpg" width="700px">
+	</div>
+	<br>
+</div>
+
+<div id="bottom"> 
+	<div id="linkToCode"><a href="https://github.com/diegoariasgh/comic">LINK TO CODE</a></div>
+	<div id="thankYou"><a href="http://imanas.shanghai.nyu.edu/~da1896/credits/credits.html" target="_blank">CREDITS</a></div>
+</div>
+<script src="js/clock.js"> </script>
+<script src="js/checkLocation.js"> </script>
+<script src="js/frames.js"> </script>
+</body>
+
+</html>
